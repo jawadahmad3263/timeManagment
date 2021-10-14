@@ -1,0 +1,76 @@
+.homePage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 650px;
+  
+}
+.sideBar{
+    max-width:25% ;
+    background-color: white;
+    padding: 10px 20px;
+    color: brown;
+    
+}
+.userInfo{
+    text-align: center;
+    padding: 12px 0px;
+    border-bottom: 1px solid brown;
+}
+.avatar{
+    font-size: 45px;
+}
+.barMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+ul a{
+    text-decoration: none;
+    color:brown;
+}
+.barMenu li{
+    margin-bottom: 5px;
+    /* border-bottom: 1px solid rgb(43, 18, 18); */
+   
+}
+.barMenu li{
+    /* border: none; */
+    font-size: 16px;
+    background-color: white;
+    padding: 15px 96px;
+}
+.barMenu li:hover{
+    background-color:brown;
+    color: white;
+    display: block;
+}
+.itemWrapper{
+  width: 73%;
+  background-color: white;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.tabHeading{
+    color:white;
+    background-color: brown;
+}
+.addUserPara{
+   
+    font-size: 22px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: brown;
+    margin-left: 311px;
+    border-bottom: 1px solid brown;
+    width: 425px;
+    padding-bottom: 5px;
+ 
+}
+.addUserPara select{
+    padding: 6px 6px;
+    margin-left: 27px;
+    font-size: 18px;
+    color: white;
+    background-color: brown;
+}

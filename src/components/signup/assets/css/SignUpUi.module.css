@@ -1,0 +1,77 @@
+.formWrapper{
+    width: 500px;
+    margin-top: 20px;
+    background-color: white;
+    height: 650px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+ }
+ .form input{
+    width: 425px;
+    margin-bottom: 35px;
+    height: 39px;
+    border: none;
+    border-bottom: 1px solid brown;
+    outline-style: none;
+    font-size: 18px;
+    color: brown;
+    
+    
+ }
+.form input::placeholder{
+    color: brown
+}
+ .form button{
+    width: 435px;
+    margin-bottom: 35px;
+    height: 46px;
+    margin-top: 20px;
+    background-color:brown;
+    font-size: 18px;
+    border: none;
+    font-size: 21px;
+    color: white;
+
+
+ }
+ .form h2{
+     text-align: center;
+     margin-bottom: 30px;
+     color: brown;
+ }
+ .backBtn{
+    padding: 5px 27px;
+    font-size: 24px;
+    background-color: brown;
+    color: white;
+    border-bottom-right-radius: 27px;
+    border: none;
+ }
+ .createUserForm .backBtn{
+     display: none;
+ }
+ .createUserForm .formWrapper{
+    margin-top: 0px;
+ }
+ .createUserForm .form button{
+   
+    margin-bottom: 5px;
+    margin-top: 15px;
+ }
+ .createUserForm .form h2{
+     display: none;
+ }
+ .successMessage{
+    font-size: 21px;
+    color: white;
+    background-color: brown;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 70px;
+    text-align: center;
+ }

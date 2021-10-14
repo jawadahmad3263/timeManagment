@@ -1,0 +1,66 @@
+
+
+.heading{
+    background-color: brown;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading button{
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+}
+.editForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+.editForm input{
+    width: 425px;
+    margin-bottom: 35px;
+    height: 39px;
+    border: none;
+    border-bottom: 1px solid brown;
+    outline-style: none;
+    font-size: 18px;
+    color: brown;
+}
+.editForm input::placeholder{
+    color: brown
+}
+ .editForm button{
+    width: 435px;
+    margin-bottom: 35px;
+    height: 46px;
+    margin-top: 20px;
+    background-color:brown;
+    font-size: 18px;
+    border: none;
+    font-size: 21px;
+    color: white;
+
+
+ }
+ .editMessage{
+     max-width: 500px;
+     background-color: brown;
+     color: white;
+     margin: auto;
+     margin-top: 100px;
+     padding: 20px;
+ }
+ .editMessage h2{
+    font-size: 24px;
+    text-align: center;
+ }
+ .editMessage button{
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+    margin-left: 160px;
+ }

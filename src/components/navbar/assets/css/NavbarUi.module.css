@@ -1,0 +1,171 @@
+.section_Navbar {
+    background-color:brown;
+    height: 105px;
+  
+    display: flex;
+    align-items: center;
+  }
+  .nav{
+      width: 60%;
+  }
+  nav ul{
+      display: flex;
+      align-items: center;
+  }
+  .btns{
+      width: 20%;
+  }
+  .btns ul{
+      display: flex;
+  }
+ 
+  .navbarWrapper{
+      display: flex;
+      margin-top: 15px;
+      align-items: center;
+      justify-content: space-between;
+  }
+   .logo{
+     margin-top: -8px;
+     display: flex;
+     color: white;
+     align-items: center;
+
+  }
+  .logo p{
+    font-size: 24px;
+     margin-top: 10px;
+    padding-left: 6px;
+  }
+  .clock{
+    font-size: 60px;
+    
+  }
+  .navbarWrapper li{
+      list-style: none;
+      
+  }
+  .navbarWrapper li a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 21px;
+    color: white;
+}
+.flexNav{
+    display: flex;
+    justify-content: space-between;
+}
+.logoutBtn{
+  padding: 10px 20px;
+  font-size: 21px;
+  background-color: brown;
+  color: white;
+  border: 1px solid white;
+  
+  
+}
+.logoutBtn:hover{
+ 
+  background-color:white;
+  color:brown;
+  border: 1px solid white;
+  
+  
+}
+.logoutIcon{
+  padding-right: 8px;
+}
+
+/* hamburger menu and  button css */
+.hmbrgrBtn,.hmbrgrBtnClose{
+    display: none;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background-color: transparent;
+    right: 10px;
+    border: none;
+    transition: all .3s ease-in-out;
+  }
+ .hmbrgrBtn span{
+    position: absolute;
+    border: 3px solid white;
+    width: 50px;
+    border-radius: 1px;
+    right: 2px;
+    transition: all .3s ease-in-out;
+  }
+ .hmbrgrBtnClose span{
+    position: absolute;
+    border: 3px solid white;
+    width: 50px;
+    border-radius: 1px;
+    right: 2px;
+    transition: all .3s ease-in-out;
+  }
+  .topbar{
+    top: 10px;
+  }
+  .midbar{
+    top: 26px;   
+  }
+  .bottombar{
+  top: 42px;
+  }
+  .hamBurgerlist li{
+    list-style: none;
+  padding: 30px;
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  color: white;
+  }
+  .hamBurgerlist li a{
+    text-decoration: none;
+    color: white;
+  }
+  .hmbrgrBtnClose .topbar{
+    transform: rotate(50deg);
+  }
+  .hmbrgrBtnClose .bottombar{
+    transform: rotate(-50deg);
+    top: 10px;
+  }
+  .hmbrgrBtnClose .midbar{
+      display: none;
+  }
+  .hamBurgerlist{
+    display: none;
+  }
+  
+@media (max-width: 991px) {
+    .nav,.btns{
+        display: none;
+    }
+   
+    .btns ul{
+        display: none;
+    }
+    .hmbrgrBtn{
+        display: block;
+     
+      }
+      .hmbrgrBtnClose{
+        display: block;
+     
+      }  
+      .hamBurgerlist{
+       display: block;
+     
+      }
+      .hamburgerMenu{
+        background-color:brown;
+        left: 0;
+        width: 100vw;
+        top: 105px;
+        height: 100vh;
+        position: absolute;
+        z-index: 999;
+      }
+      
+}
